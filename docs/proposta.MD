@@ -43,21 +43,21 @@
 
 ---
 
-## 📋 Índice
+## Índice
 
-- [🎮 Sobre o Jogo](#-sobre-o-jogo)
-- [👾 Como Jogar](#-como-jogar)
-- [🎯 Objetivos](#-objetivos)
-- [📏 Regras](#-regras)
-- [📦 Elementos do Jogo](#-elementos-do-jogo)
-- [⌨️ Controles](#️-controles)
-- [🏗️ Organização do Código](#️-organização-do-código)
-- [🖼️ Recursos Externos](#️-recursos-externos)
-- [🚀 Melhorias Previstas](#-melhorias-previstas)
+- [Sobre o Jogo](#-sobre-o-jogo)
+- [Como Jogar](#-como-jogar)
+- [Objetivos](#-objetivos)
+- [Regras](#-regras)
+- [Elementos do Jogo](#-elementos-do-jogo)
+- [Controles](#️-controles)
+- [Organização do Código](#️-organização-do-código)
+- [Recursos Externos](#️-recursos-externos)
+- [Melhorias Previstas](#-melhorias-previstas)
 
 ---
 
-## 🎮 Sobre o Jogo
+## Sobre o Jogo
 
 <div align="center">
 
@@ -72,7 +72,7 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 
 ---
 
-## 👾 Como Jogar
+## Como Jogar
 
 <div align="center">
 
@@ -100,17 +100,17 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 </div>
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 <div align="center">
 
 
 </div>
 
-- 🏁 Chegar até o final do labirinto
-- 📚 Coletar itens
-- ✂️ Coletar os itens no **menor número de linhas de comando possível**
-- 🚧 Evitar obstáculos
+- Chegar até o final do labirinto
+- Coletar itens
+- Coletar os itens no **menor número de linhas de comando possível**
+- Evitar obstáculos
 
 ### Condição de vitória
 
@@ -122,7 +122,7 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 
 ---
 
-## 📏 Regras
+## Regras
 
 <div align="center">
 
@@ -142,26 +142,26 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 
 ---
 
-## 📦 Elementos do Jogo
+## Elementos do Jogo
 
 <div align="center">
 
 
 </div>
 
-### 🤖 Personagem principal
+### Personagem principal
 
 Um personagem controlado pelos blocos de comando selecionados pelo jogador.
 
-### 🧱 Obstáculos
+### Obstáculos
 
 Barreiras que impedem a passagem do personagem: estantes, móveis, portas, etc.
 
-### 📚 Itens de interação
+### Itens de interação
 
 Livros aparecem na tela e aumentam a pontuação quando coletados.
 
-### ❤️ Pontuação, Vidas e Progresso
+### Pontuação, Vidas e Progresso
 
 ```
 ♥ ♥ ♥  →  3 vidas iniciais
@@ -174,7 +174,7 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 
 ---
 
-## ⌨️ Controles
+## Controles
 
 <div align="center">
 
@@ -196,7 +196,7 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 
 ---
 
-## 🏗️ Organização do Código
+## Arquitetura do Código
 
 <div align="center">
 
@@ -221,7 +221,7 @@ src/
 
 ---
 
-## 🖼️ Recursos Externos
+## Recursos Externos
 
 - Imagens obtidas de banco gratuito
 - Efeitos sonoros obtidos de banco gratuito
@@ -229,7 +229,7 @@ src/
 
 ---
 
-## ⚠️ Principais Dificuldades Esperadas
+## Principais Dificuldades Esperadas
 
 ```
 →  Movimentação do jogador
@@ -243,7 +243,7 @@ src/
 
 ---
 
-## 📦 Escopo Mínimo
+## Escopo Mínimo
 
 A versão mínima contará com **três fases completas e funcionais**, nas quais o jogador utilizará comandos de programação para conduzir o personagem até o objetivo final. Essa versão incluirá:
 
@@ -253,7 +253,7 @@ A versão mínima contará com **três fases completas e funcionais**, nas quais
 
 ---
 
-## 🚀 Melhorias Previstas
+## Melhorias Previstas
 
 <div align="center">
 
@@ -261,17 +261,17 @@ A versão mínima contará com **três fases completas e funcionais**, nas quais
 
 Caso haja tempo durante o desenvolvimento:
 
-- [ ] ⭐ Coletar estrelas para pontuação e chaves para abrir portas e avançar fases
-- [ ] 🔊 Sons gratuitos
-- [ ] 🗺️ Novas fases
-- [ ] 🎭 Animações
-- [ ] 🧑‍🎨 Diferentes personagens
-- [ ] 🧱 Novos tipos de obstáculos
-- [ ] 📈 Aumento de dificuldade
+- [ ] Coletar estrelas para pontuação e chaves para abrir portas e avançar fases
+- [ ] Sons gratuitos
+- [ ] Novas fases
+- [ ] Animações
+- [ ] Diferentes personagens
+- [ ] Novos tipos de obstáculos
+- [ ] Aumento de dificuldade
 
 ---
 
-## 👨‍💻 Time de Desenvolvimento
+## Time de Desenvolvimento
 
 <div align="center">
 
