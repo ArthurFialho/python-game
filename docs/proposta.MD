@@ -1,286 +1,293 @@
-# Proposta Inicial do Jogo
+<div align="center">
+<div align="center">
 
-Este documento deve ser preenchido pelo grupo na Semana 1 do projeto.
+```
+██████╗ ███████╗██████╗ ██████╗ ██╗██████╗  ██████╗
+██╔══██╗██╔════╝██╔══██╗██╔══██╗██║██╔══██╗██╔═══██╗
+██████╔╝█████╗  ██████╔╝██║  ██║██║██║  ██║██║   ██║
+██╔═══╝ ██╔══╝  ██╔══██╗██║  ██║██║██║  ██║██║   ██║
+██║     ███████╗██║  ██║██████╔╝██║██████╔╝╚██████╔╝
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═════╝  ╚═════╝
 
-A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolvida com Python e Pygame dentro do prazo disponível.
+███╗   ██╗ ██████╗      █████╗ ██╗      ██████╗  ██████╗ ██████╗ ██╗████████╗███╗   ███╗ ██████╗
+████╗  ██║██╔═══██╗    ██╔══██╗██║     ██╔════╝ ██╔═══██╗██╔══██╗██║╚══██╔══╝████╗ ████║██╔═══██╗
+██╔██╗ ██║██║   ██║    ███████║██║     ██║  ███╗██║   ██║██████╔╝██║   ██║   ██╔████╔██║██║   ██║
+██║╚██╗██║██║   ██║    ██╔══██║██║     ██║   ██║██║   ██║██╔══██╗██║   ██║   ██║╚██╔╝██║██║   ██║
+██║ ╚████║╚██████╔╝    ██║  ██║███████╗╚██████╔╝╚██████╔╝██║  ██║██║   ██║   ██║ ╚═╝ ██║╚██████╔╝
+╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝     ╚═╝ ╚═════╝
+```
+</div>
 
-## 1. Nome provisório do jogo
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-00B140?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-F4A01A?style=for-the-badge)
 
-Escreva aqui o nome provisório do jogo.
+<br/>
 
-Exemplo:
+> *"Num mundo onde tudo é controlado por algoritmos, apenas quem sabe programar encontra o caminho."*
 
-> Corrida dos Obstáculos
+<br/>
+</div>
 
-## 2. Integrantes do grupo
+<div align="center">
+  
+| Integrantes |
+|-----------|
+| Arthur Fernandes Fialho e Silva |
+| Arthur Rodrigues de Macedo |
+| Miguel Xavier dos Santos |
+| Pamela Fernandes Nilo |
+| Túlio Marcus de Oliveira Gonçalves |
+</div>
 
-Liste os integrantes do grupo.
 
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+---
 
-## 3. Tipo de jogo
+## 📋 Índice
 
-Indique o tipo de jogo que será desenvolvido.
+- [🎮 Sobre o Jogo](#-sobre-o-jogo)
+- [👾 Como Jogar](#-como-jogar)
+- [🎯 Objetivos](#-objetivos)
+- [📏 Regras](#-regras)
+- [📦 Elementos do Jogo](#-elementos-do-jogo)
+- [⌨️ Controles](#️-controles)
+- [🏗️ Organização do Código](#️-organização-do-código)
+- [🖼️ Recursos Externos](#️-recursos-externos)
+- [🚀 Melhorias Previstas](#-melhorias-previstas)
 
-Exemplos:
+---
 
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
+## 🎮 Sobre o Jogo
 
-Tipo escolhido pelo grupo:
+<div align="center">
 
-> Escreva aqui.
 
-## 4. Descrição geral do jogo
+</div>
 
-Explique, em poucas linhas, como o jogo funcionará.
+**Perdido no Algoritmo** é um jogo de labirinto simples onde o jogador não controla o personagem diretamente — ele **monta algoritmos** com blocos de programação para mover o personagem pelo cenário.
 
-Procure responder:
+Na tela aparecem um personagem, diferentes cenários organizados em uma grade, e objetos relacionados aos desafios de cada fase: estrelas para coletar, livros, interruptores, portas, obstáculos e um painel com blocos de comandos. Por meio desse painel, o jogador faz o personagem andar, virar, coletar itens, ativar mecanismos e tomar decisões.
 
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
+Conforme as fases avançam, torna-se necessário utilizar estruturas condicionais (`IF` e `ELSE`) e laços de repetição (`WHILE` e `FOR`), além de estratégias para contornar obstáculos e resolver problemas de forma eficiente.
 
-Descrição:
+---
 
-> Escreva aqui.
+## 👾 Como Jogar
 
-## 5. Objetivo do jogador
+<div align="center">
 
-Explique qual é o objetivo principal do jogador.
+![How to play gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTZlMHU4NmRrd3VkZWc5ajlvcGhsNmF4MHd4MGF5ZTR4bGloNzA2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif)
 
-Exemplos:
+</div>
 
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
+<div align="center">
 
-Objetivo:
+```
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│  1. Analise o labirinto e os objetivos da fase           │
+│              ↓                                           │
+│  2. Monte sua sequência de blocos no painel              │
+│              ↓                                           │
+│  3. Pressione ENTER para executar                        │
+│              ↓                                           │
+│  4. Observe o personagem seguindo seus comandos          │
+│              ↓                                           │
+│  5. Se não conseguir, perde uma vida e tenta de novo     │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
+</div>
+---
 
-> Escreva aqui.
+## 🎯 Objetivos
 
-## 6. Regras principais
+<div align="center">
 
-Liste as principais regras do jogo.
 
-Exemplo:
+</div>
 
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
+- 🏁 Chegar até o final do labirinto
+- 📚 Coletar itens
+- ✂️ Coletar os itens no **menor número de linhas de comando possível**
+- 🚧 Evitar obstáculos
 
-Regras do grupo:
+### Condição de vitória
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
+> Chegar ao final da fase seguindo as regras impostas.
 
-## 7. Condição de vitória
+### Condição de derrota
 
-Explique como o jogador vence ou conclui o jogo.
+> Usar todos os movimentos disponíveis **ou** perder todas as vidas.
 
-Exemplos:
+---
 
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
+## 📏 Regras
 
-Condição de vitória:
+<div align="center">
 
-> Escreva aqui.
 
-## 8. Condição de derrota ou encerramento
+</div>
+<div align="center">
 
-Explique como o jogador perde ou quando a partida termina.
+| # | Regra |
+|---|-------|
+| 1 | O jogador começa no ponto **A** e deve chegar ao ponto **B** |
+| 2 | Para chegar ao ponto B, ele deve definir a movimentação com **blocos de programação** |
+| 3 | Há um **limite de comandos** para executar por fase |
+| 4 | Caso não consiga completar a fase, perde **uma vida** |
+| 5 | O jogador começa com **3 vidas** (tentativas) |
+| 6 | Caso as vidas acabem, retorna ao **começo do game** |
+</div>
 
-Exemplos:
+---
 
-- perder todas as vidas;
-- acabar o tempo;
-- colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
+## 📦 Elementos do Jogo
 
-Condição de derrota ou encerramento:
+<div align="center">
 
-> Escreva aqui.
 
-## 9. Elementos previstos no jogo
+</div>
 
-Descreva os principais elementos que farão parte do jogo.
+### 🤖 Personagem principal
 
-## Jogador ou elemento principal
+Um personagem controlado pelos blocos de comando selecionados pelo jogador.
 
-Exemplo:
+### 🧱 Obstáculos
 
-> Um personagem controlado pelas setas do teclado.
+Barreiras que impedem a passagem do personagem: estantes, móveis, portas, etc.
 
-Descrição:
+### 📚 Itens de interação
 
-> Escreva aqui.
+Livros aparecem na tela e aumentam a pontuação quando coletados.
 
-## Obstáculos, inimigos ou desafios
+### ❤️ Pontuação, Vidas e Progresso
 
-Exemplo:
+```
+♥ ♥ ♥  →  3 vidas iniciais
 
-> Obstáculos aparecem em posições aleatórias e devem ser evitados.
+📚 Coletar um livro    → +10 pontos
+💀 Perder todas vidas  → volta ao início
+```
 
-Descrição:
+O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ganha 10 pontos por item coletado.
 
-> Escreva aqui.
+---
 
-## Itens, alvos ou objetos de interação
+## ⌨️ Controles
 
-Exemplo:
+<div align="center">
 
-> Moedas aparecem na tela e aumentam a pontuação quando coletadas.
+```
+╔══════════════════════════════════════════════════╗
+║               CONTROLES DO JOGO                  ║
+╠══════════════════════════════════════════════════╣
+║                                                  ║
+║  🖱️  Mouse / Teclado  →  Selecionar bloco        ║
+║                                                  ║
+║  ↵   ENTER            →  Executar tentativa      ║
+║                                                  ║
+║  ⎋   ESC              →  Sair do jogo            ║
+║                                                  ║
+╚══════════════════════════════════════════════════╝
+```
 
-Descrição:
+</div>
 
-> Escreva aqui.
+---
 
-## Pontuação, vidas, tempo ou progresso
+## 🏗️ Organização do Código
 
-Exemplo:
+<div align="center">
 
-> O jogador começa com 3 vidas e ganha 10 pontos por item coletado.
+![Code gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWd3am0yY3hoaWhuMGNibW5pbHg2d201NzN0NTR3bzVjdXo5Nmp0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif)
 
-Descrição:
+</div>
 
-> Escreva aqui.
+```
+main.py          →  inicializa o jogo e chama o loop principal
 
-## 10. Controles previstos
+src/
+├── jogo.py      →  loop principal e gerenciamento dos estados do jogo
+├── config.py    →  configurações globais (tamanho da tela, cores, constantes)
+├── mapa.py      →  representação e renderização dos mapas em matriz
+├── personagem.py→  lógica de movimentação e estado do personagem
+├── blocos.py    →  definição dos blocos de comando e seu comportamento (dicionários)
+├── fase.py      →  carregamento e controle de cada fase/disciplina
+├── avaliacao.py →  sistema de notas e verificação de eficiência
+├── dados.py     →  leitura e escrita de progresso, ranking e configs em arquivo
+└── ui.py        →  elementos de interface (painel de blocos, dicas, HUD de notas)
+```
 
-Informe os comandos que serão utilizados pelo jogador.
+---
 
-Exemplo:
+## 🖼️ Recursos Externos
 
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
+- Imagens obtidas de banco gratuito
+- Efeitos sonoros obtidos de banco gratuito
+- Fonte personalizada
 
-Controles do grupo:
+---
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
+## ⚠️ Principais Dificuldades Esperadas
 
-## 11. Organização inicial do código
+```
+→  Movimentação do jogador
+→  Organização do código
+→  Interface gráfica
+→  Modelagem das classes
+→  Uso do GitHub
+→  Testes
+→  Exibição de textos na tela
+```
 
-Explique como o grupo pretende organizar o código.
+---
 
-Exemplo:
+## 📦 Escopo Mínimo
 
-- `main.py`: inicia o jogo;
-- `src/jogo.py`: contém o loop principal;
-- `src/config.py`: guarda configurações como tamanho da tela e cores;
-- `src/funcoes.py`: contém funções auxiliares;
-- `src/dados.py`: contém funções de leitura e escrita de arquivos.
+A versão mínima contará com **três fases completas e funcionais**, nas quais o jogador utilizará comandos de programação para conduzir o personagem até o objetivo final. Essa versão incluirá:
 
-Organização planejada:
+- Movimentação do personagem
+- Obstáculos para desviar
+- Validação da sequência de comandos criada pelo jogador
 
-> Escreva aqui.
+---
 
+## 🚀 Melhorias Previstas
 
-## 12. Recursos externos previstos
+<div align="center">
 
-Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
+</div>
 
-Exemplo:
+Caso haja tempo durante o desenvolvimento:
 
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
+- [ ] ⭐ Coletar estrelas para pontuação e chaves para abrir portas e avançar fases
+- [ ] 🔊 Sons gratuitos
+- [ ] 🗺️ Novas fases
+- [ ] 🎭 Animações
+- [ ] 🧑‍🎨 Diferentes personagens
+- [ ] 🧱 Novos tipos de obstáculos
+- [ ] 📈 Aumento de dificuldade
 
-Recursos previstos:
+---
 
-> Escreva aqui.
+## 👨‍💻 Time de Desenvolvimento
 
-Caso não pretenda utilizar recursos externos, escreva:
+<div align="center">
 
-> Não pretendemos utilizar recursos externos.
+![Team gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXc5YXo3MHgwMmo2Z3Z0OXB5NHBwbXU0Y2w5dWViMzlhemhoZWlsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif)
 
-## 13. Principais dificuldades esperadas
+</div>
 
-Liste as dificuldades que o grupo acredita que poderá enfrentar.
 
-Exemplos:
+---
 
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
+<div align="center">
 
-Dificuldades previstas:
+```
+> Feito com ☕, 🧠 e muito  print("debug")
+```
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+**Perdido no Algoritmo** — Projeto Acadêmico · 2025
 
-## 14. Escopo mínimo para a entrega final
-
-Descreva qual será a versão mínima aceitável do jogo.
-
-Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
-
-Exemplo:
-
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
-
-Escopo mínimo:
-
-> Escreva aqui.
-
-## 15. Possíveis melhorias, caso haja tempo
-
-Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
-
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
-Melhorias possíveis:
-
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+</div>
