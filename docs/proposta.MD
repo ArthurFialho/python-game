@@ -288,6 +288,6 @@ Caso haja tempo durante o desenvolvimento:
 > Feito com ☕, 🧠 e muito  print("debug")
 ```
 
-**Perdido no Algoritmo** — Projeto Acadêmico · 2025
+**Perdido no Algoritmo** — Projeto Acadêmico · 2026
 
 </div>
