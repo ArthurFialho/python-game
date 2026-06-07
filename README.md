@@ -71,6 +71,8 @@ Na tela aparecem um personagem, diferentes cenários organizados em uma grade, e
 
 Conforme as fases avançam, torna-se necessário utilizar estruturas condicionais (`IF` e `ELSE`) e laços de repetição (`WHILE` e `FOR`), além de estratégias para contornar obstáculos e resolver problemas de forma eficiente.
 
+> **Status do protótipo (Semana 2):** esta versão valida a base técnica do projeto — janela do Pygame, loop principal, movimentação, colisões, pontuação, vidas, recorde e ranking. O sistema de **blocos de programação** descrito acima é o conceito-alvo do jogo e será incorporado nas entregas das Semanas 3 e 4. Por enquanto, o personagem é controlado diretamente pelo teclado.
+
 ---
 
 ## Como Jogar
