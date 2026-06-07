@@ -16,6 +16,7 @@
 ██║ ╚████║╚██████╔╝    ██║  ██║███████╗╚██████╔╝╚██████╔╝██║  ██║██║   ██║   ██║ ╚═╝ ██║╚██████╔╝
 ╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝     ╚═╝ ╚═════╝
 ```
+
 </div>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -38,8 +39,8 @@
 | Miguel Xavier dos Santos |
 | Pamela Fernandes Nilo |
 | Túlio Marcus de Oliveira Gonçalves |
-</div>
 
+</div>
 
 ---
 
@@ -61,7 +62,6 @@
 ## Sobre o Jogo
 
 <div align="center">
-
 
 </div>
 
@@ -98,13 +98,13 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 │                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
+
 </div>
 ---
 
 ## Objetivos
 
 <div align="center">
-
 
 </div>
 
@@ -127,7 +127,6 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 
 <div align="center">
 
-
 </div>
 <div align="center">
 
@@ -139,6 +138,7 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 | 4 | Caso não consiga completar a fase, perde **uma vida** |
 | 5 | O jogador começa com **3 vidas** (tentativas) |
 | 6 | Caso as vidas acabem, retorna ao **começo do game** |
+
 </div>
 
 ---
@@ -146,7 +146,6 @@ Conforme as fases avançam, torna-se necessário utilizar estruturas condicionai
 ## Elementos do Jogo
 
 <div align="center">
-
 
 </div>
 
@@ -323,7 +322,6 @@ Caso haja tempo durante o desenvolvimento:
 ![Team gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXc5YXo3MHgwMmo2Z3Z0OXB5NHBwbXU0Y2w5dWViMzlhemhoZWlsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif)
 
 </div>
-
 
 ---
 
