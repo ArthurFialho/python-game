@@ -46,6 +46,7 @@
 ## Índice
 
 - [Sobre o Jogo](#-sobre-o-jogo)
+- [Como Rodar](#-como-rodar)
 - [Como Jogar](#-como-jogar)
 - [Objetivos](#-objetivos)
 - [Regras](#-regras)
@@ -174,6 +175,40 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 
 ---
 
+## Como Rodar
+
+### Pré-requisitos
+
+- **Python 3.10+**
+- **pip** e **venv** (no Ubuntu/Debian: `sudo apt install python3-pip python3-venv`)
+
+### Passo a passo
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/<seu-usuario>/python-game.git
+cd python-game
+
+# 2. Crie e ative um ambiente virtual
+python3 -m venv .venv
+source .venv/bin/activate            # Linux / macOS
+# .venv\Scripts\activate            # Windows (PowerShell)
+
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Rode o jogo
+python main.py
+```
+
+### Rodando os testes
+
+```bash
+python -m pytest tests/ -v
+```
+
+---
+
 ## Controles
 
 <div align="center">
@@ -183,9 +218,11 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 ║               CONTROLES DO JOGO                  ║
 ╠══════════════════════════════════════════════════╣
 ║                                                  ║
-║  🖱️  Mouse / Teclado  →  Selecionar bloco        ║
+║  ␣   ESPAÇO           →  Iniciar partida         ║
 ║                                                  ║
-║  ↵   ENTER            →  Executar tentativa      ║
+║  ← ↑ → ↓ / WASD       →  Mover o personagem      ║
+║                                                  ║
+║  R                    →  Reiniciar (game over)   ║
 ║                                                  ║
 ║  ⎋   ESC              →  Sair do jogo            ║
 ║                                                  ║
@@ -193,6 +230,8 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 ```
 
 </div>
+
+> Observação: o protótipo da Semana 2 utiliza controle direto por teclado. Os blocos de programação descritos na proposta serão implementados nas próximas entregas.
 
 ---
 
@@ -205,18 +244,24 @@ O jogador começa com uma quantidade limitada de ações por fase, 3 vidas, e ga
 </div>
 
 ```
-main.py          →  inicializa o jogo e chama o loop principal
+main.py              →  ponto de entrada que inicializa o jogo
 
 src/
-├── jogo.py      →  loop principal e gerenciamento dos estados do jogo
-├── config.py    →  configurações globais (tamanho da tela, cores, constantes)
-├── mapa.py      →  representação e renderização dos mapas em matriz
-├── personagem.py→  lógica de movimentação e estado do personagem
-├── blocos.py    →  definição dos blocos de comando e seu comportamento (dicionários)
-├── fase.py      →  carregamento e controle de cada fase/disciplina
-├── avaliacao.py →  sistema de notas e verificação de eficiência
-├── dados.py     →  leitura e escrita de progresso, ranking e configs em arquivo
-└── ui.py        →  elementos de interface (painel de blocos, dicas, HUD de notas)
+├── jogo.py          →  loop principal e máquina de estados (menu, jogando, game over)
+├── config.py        →  constantes globais (tela, cores, gameplay, atlas, caminhos)
+├── entidades.py     →  criação e movimentação do jogador, gema e inimigo
+├── sprites.py       →  recorte de sprites a partir da spritesheet
+├── interface.py     →  HUD on-screen, tela de menu e tela de fim de jogo
+├── dados.py         →  leitura e escrita de recorde e ranking em arquivo
+└── funcoes.py       →  funções puras de lógica do jogo (testáveis)
+
+data/
+├── recorde.txt      →  maior pontuação já alcançada
+└── ranking.txt      →  ranking das melhores partidas
+
+assets/imagens/      →  spritesheet utilizada pelo jogo
+tests/               →  testes automatizados (pytest)
+docs/proposta.md     →  proposta inicial do projeto
 ```
 
 ---
